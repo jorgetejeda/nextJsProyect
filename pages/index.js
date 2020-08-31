@@ -1,3 +1,5 @@
-const Index = () => (<div><p>Thank you, next</p></div>);
+import Layout from "../components/Layout";
+
+const Index = () => <Layout>Welcome to WHATABYTE!</Layout>;
 
 export default Index;
