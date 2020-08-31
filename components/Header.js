@@ -1,3 +1,4 @@
+
 const headerStyle = {
     backgroundColor: "blue",
     color: "white",
@@ -7,6 +8,7 @@ const headerStyle = {
   
   const Header = () => (
     <div className="Header" style={headerStyle}>
+       
       HEADER
     </div>
   );
