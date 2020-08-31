@@ -1,30 +1,14 @@
 import Header from "./Header";
 import NavBar from "./NavBar";
-import Head from 'next/head';
+import Head from "next/head";
 
-
-const layoutStyle = {
-  display: "flex",
-  flexDirection: "column",
-  height: "100%",
-  width: "100%"
-};
-
-const contentStyle = {
-  flex: 1,
-  display: "flex",
-  flexDirection: "column"
-};
-
-const Layout = props => (
-  <div className="Layout" style={layoutStyle}>
-       <Head>
-            <title>Next Project</title>
-        </Head>
+const Layout = (props) => (
+  <div className="Layout">
+    <Head>
+      <title>Next Project</title>
+    </Head>
     <Header />
-    <div className="Content" style={contentStyle}>
-      {props.children}
-    </div>
+    <div className="Content">{props.children}</div>
     <NavBar />
   </div>
 );
