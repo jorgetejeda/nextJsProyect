@@ -2,7 +2,7 @@ import Header from "../Header/Header";
 import NavBar from "../NavBar/NavBar";
 import Head from "next/head";
 import './Layout.scss';
-import '../../css/layout.css';
+import "../../css/index.scss";
 
 const Layout = (props) => (
   <div className="Layout">
